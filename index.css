@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-image: url(./image/bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.header {
+  margin: 0vw auto;
+  width: 100%;
+}
+.rewards {
+  margin: 0vw auto;
+  width: 96%;
+  background-image: url(./image/rewardBg.png);
+  background-size: 100% 100%;
+  height: 72vw;
+}
+.titleImg {
+  margin: 0vw auto;
+  width: 50%;
+}
+.titleImg img {
+  width: 100%;
+}
+.rulesBtn {
+  position: absolute;
+  z-index: 1000;
+  right: -0.5rem;
+  margin-top: 10rem;
+  background: none;
+  box-shadow: none;
+  border: none;
+  top: 2rem;
+  /* width: 18%; */
+  height: 20%;
+}
+.rewards-card {
+  width: 20%; /* Adjust width as needed */
+  display: flex;
+  margin: 1vw auto; /* Adjust margin as needed */
+  justify-content: center; /* Center items */
+  gap: 2rem;
+}
+.rewards-card img {
+  width: 100%;
+}
+
+.reward-txt {
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+span {
+  color: white;
+  font-size: 16px;
+}
+
+.schedule {
+  margin: 0vw auto;
+  width: 96%;
+  height: 72vw;
+  background-image: url(./image/Schedule\ bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 2em;
+  padding-bottom: 5rem;
+}
+
+.schedulImg {
+  width: 70%;
+  margin: 0vw auto;
+  position: relative;
+  top: -2rem;
+  right: 1rem;
+  /* padding-right: 1rem; */
+  /* padding-bottom: 2rem; */
+}
+.schedulImg img {
+  width: 100%;
+}
+
+.schedule-table {
+  filter: brightness(0.8);
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-gap: 3px; /* Adjust the gap between images as needed */
+  margin: 0 auto;
+  padding-top: -3rem;
+}
+
+.schedule-table img {
+  width: 100%;
+}
+
+.leaderBoard {
+  margin: 0vw auto;
+  width: 96%;
+  height: 111vh;
+  background-image: url(./image/Leaderboard\ bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 2em;
+  padding-bottom: 5rem;
+}
+
+.leaderBoard-item {
+  background-image: url(./image/top\ 3\ name\ bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 96%;
+  height: 12vh;
+  margin: 0vw auto 0 3vw;
+  position: relative;
+  bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leaderBoard-item2 {
+  background-image: url(./image/top\ 3\ name\ bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 96%;
+  height: 12vh;
+  margin: 0vw auto 0 3vw;
+  position: relative;
+  bottom: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-frame {
+  width: 10%;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  position: relative;
+  left: 1rem;
+  top: 0.5rem;
+}
+
+.top-frame img {
+  width: 100%;
+}
+
+.leader-beans {
+  width: 30%;
+  display: flex;
+  /* position: absolute;
+  right: 7vw;
+  bottom: 4vw; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -2rem;
+  top: 0.5rem;
+}
+
+.leader-beans img {
+  width: 100%;
+}
+
+.beanImgs {
+  position: absolute;
+}
+
+.leaderBoard-item1 {
+  background-image: url(./image/4th\ onwards\ name\ bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 93%;
+  height: 10vh;
+  margin: 0vw auto 0 3vw;
+  position: relative;
+  bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-frame1 {
+  width: 10%;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  position: relative;
+  left: 1rem;
+}
+
+.top-frame1 img {
+  width: 100%;
+}
+
+.leader-beans1 {
+  width: 30%;
+  display: flex;
+  /* position: absolute;
+  right: 7vw;
+  bottom: 4vw; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -1.5rem;
+}
+
+.leader-beans1 img {
+  width: 100%;
+}
+
+.footer{
+  background-image: url(./image/Footer.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30vh;
+  margin-top: -6rem;
+  position: absolute;
+  z-index: -1000;
+  /* margin: 0vw auto; */
+}
+
+.rights{
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nameId{
+  font-size: 10px;
+}
+
