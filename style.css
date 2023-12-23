@@ -373,3 +373,16 @@ span {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.reward-beans-target {
+  background-color: maroon;
+  width: 40%;
+  height: 5vh;
+  margin: 3vw auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reward-beans-target span {
+  color: yellow;
+  font-size: 3vw;
+}
